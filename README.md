@@ -66,5 +66,9 @@ const isaac = {
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/manuelisaaccamanidiaz-lgtm/manuelisaaccamanidiaz-lgtm/output/github-contribution-grid-snake-dark.svg"/>
+</p>
+
+<p align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=140&color=0:38BDF8,50:2563EB,100:0F172A"/>
 </p>
