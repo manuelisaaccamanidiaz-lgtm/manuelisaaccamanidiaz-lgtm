@@ -49,6 +49,27 @@ const isaac = {
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
 
+## Proyectos destacados
+
+### Frontend_de_una_tienda_de_ropa👕🩳
+
+Proyecto de diseño visual para plataforma web de una tienda de ropa
+
+**Tecnologías:** HTML · CSS 
+
+### Acmebank🏦
+
+desarrollo de aplicacion web para manejo de datos de un banco
+
+**Tecnologías:** HTML · CSS · Javascript · local storage
+
+### Proyecto_DeliveryBot🦾🦿
+
+Construccion de bot automatizado para un tienda escolar
+
+**Tecnologías:** n8n · Javascript
+
+
 <p align="center">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=manuelisaaccamanidiaz-lgtm&show_icons=true&theme=github_dark&hide_border=true"/>
 </p>
