@@ -1,27 +1,28 @@
-<h1 align="center">Hi, I'm Isaac 👋</h1>
+<h1 align="center">Manuel Isaac Camaño Díaz</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=640&lines=Junior+Backend+Developer;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL;Building+AI+agents+on+real+data;Bucaramanga%2C+Colombia+%F0%9F%87%A8%F0%9F%87%B4" alt="Junior Backend Developer · Java · Spring Boot · PostgreSQL"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=640&lines=Junior+Backend+Developer;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL;Building+AI+agents+on+real+data;Bucaramanga%2C+Colombia" alt="Junior Backend Developer · Java · Spring Boot · PostgreSQL"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/manuel-isaac-cama%C3%B1o-diaz-707006305/"><img src="https://img.shields.io/badge/%F0%9F%92%BC_LinkedIn-111827?style=flat-square" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/manuel-isaac-cama%C3%B1o-diaz-707006305/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=flat-square" alt="LinkedIn"/></a>
   <a href="mailto:manuelisaaccamanidiaz@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=F59E0B" alt="Email"/></a>
   <a href="https://manuelisaaccamanidiaz-lgtm.github.io/portafolio_profesional/"><img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=githubpages&logoColor=F59E0B" alt="Portfolio"/></a>
 </p>
 
 ---
 
-I'm a software development student at **Campuslands** focused on **backend development**.
-I like designing systems with clean boundaries (hexagonal architecture, DDD), modeling
-databases properly, and lately, building **AI agents** that answer real questions with real data.
+**Junior Backend Developer** and **Software Development Technician** (Campuslands).
+I build REST APIs with clean boundaries (hexagonal architecture, DDD), design normalized
+relational databases, and develop **AI agents** that answer real questions with real data.
 
 ```java
-public record Developer(String name, String focus, List<String> stack, String nowBuilding) {
+public record Developer(String name, String role, String focus, List<String> stack, String nowBuilding) {
 
     public static Developer isaac() {
         return new Developer(
             "Manuel Isaac Camaño Díaz",
+            "Junior Backend Developer",
             "Backend · Databases · AI agents",
             List.of("Java 21", "Spring Boot", "PostgreSQL", "Docker", "Python"),
             "Agents that help small businesses decide with data"
@@ -30,7 +31,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 }
 ```
 
-## 🧰 Tech stack
+## Tech stack
 
 | Area | Tools |
 |---|---|
@@ -40,9 +41,9 @@ public record Developer(String name, String focus, List<String> stack, String no
 | **Frontend** | ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat-square&logo=javascript&logoColor=F59E0B) ![HTML5](https://img.shields.io/badge/HTML5-111827?style=flat-square&logo=html5&logoColor=F59E0B) ![CSS3](https://img.shields.io/badge/CSS3-111827?style=flat-square&logo=css&logoColor=F59E0B) ![React](https://img.shields.io/badge/React_%28learning%29-111827?style=flat-square&logo=react&logoColor=F59E0B) |
 | **Tooling** | ![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=F59E0B) ![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git&logoColor=F59E0B) ![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=F59E0B) ![Postman](https://img.shields.io/badge/Postman-111827?style=flat-square&logo=postman&logoColor=F59E0B) |
 
-## 🚀 Featured projects
+## Featured projects
 
-### 🛠️ [RentaHerramientas](https://github.com/manuelisaaccamanidiaz-lgtm/RentaHerramientas)
+### [RentaHerramientas](https://github.com/manuelisaaccamanidiaz-lgtm/RentaHerramientas)
 **Tool-rental platform connecting hardware stores with customers.** Providers publish inventory, customers book dates, pay (simulated) and download a PDF invoice.
 
 - **Hexagonal architecture + DDD** split into Maven modules (`domain` · `application` · `infrastructure` · `bootstrap`) with bounded contexts
@@ -53,7 +54,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 
 `Java 21` `Spring Boot 4` `PostgreSQL` `Flyway` `JWT` `Docker` `JUnit`
 
-### 🌱 [Abona: AI agent for fertilizer prices](https://github.com/manuelisaaccamanidiaz-lgtm/agente_insumos)
+### [Abona: AI agent for fertilizer prices](https://github.com/manuelisaaccamanidiaz-lgtm/agente_insumos)
 **Helps small Colombian farmers decide when and where to buy fertilizer**, using official DANE (SIPSA) price data by municipality.
 
 - LLM agent with **tool calling** that answers prices, buy-now-or-wait advice and order costs
@@ -63,7 +64,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 
 `Python` `LLM tool calling` `ETL` `Streamlit` `pytest`
 
-### 🔐 [SICA: Access Control System](https://github.com/manuelisaaccamanidiaz-lgtm/proyecto_SICA)
+### [SICA: Access Control System](https://github.com/manuelisaaccamanidiaz-lgtm/proyecto_SICA)
 **Replaces paper logbooks in a gated business complex** with automated check-in/out for workers and visitors.
 
 - **Hexagonal architecture + Strategy pattern** for 4 different access flows, in plain Java (no frameworks)
@@ -72,7 +73,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 
 `Java 17` `MySQL` `JDBC` `Maven`
 
-### 🦺 [Multi-tenant SST & PESV database](https://github.com/manuelisaaccamanidiaz-lgtm/Sistema_de_gestion_SST_y_PESV)
+### [Multi-tenant SST & PESV database](https://github.com/manuelisaaccamanidiaz-lgtm/Sistema_de_gestion_SST_y_PESV)
 **PostgreSQL database for occupational safety and road-safety management**, shared by many organizations.
 
 - **Shared-schema multi-tenancy** with logical isolation by `tenant_id`
@@ -82,7 +83,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 `PostgreSQL` `PL/pgSQL` `Data modeling`
 
 <details>
-<summary><b>📂 More projects</b></summary>
+<summary><b>More projects</b></summary>
 <br>
 
 | Project | What it is | Stack |
@@ -96,7 +97,7 @@ public record Developer(String name, String focus, List<String> stack, String no
 
 </details>
 
-## 📚 Currently learning
+## Currently learning
 
 **React + Vite** on the frontend, and **vector databases and embeddings** for AI agents.
 
