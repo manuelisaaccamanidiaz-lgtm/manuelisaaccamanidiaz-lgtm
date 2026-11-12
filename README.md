@@ -1,7 +1,7 @@
 <h1 align="center">Manuel Isaac Camaño Díaz</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=640&lines=Junior+Backend+Developer;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL;Building+AI+agents+on+real+data;Bucaramanga%2C+Colombia" alt="Junior Backend Developer · Java · Spring Boot · PostgreSQL"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=640&lines=Junior+Full+Stack+Developer;Software+Development+%26+AI+Technician;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL+%C2%B7+React;Building+AI+agents+on+real+data;Bucaramanga%2C+Colombia" alt="Junior Full Stack Developer · Software Development & AI Technician"/>
 </p>
 
 <p align="center">
@@ -12,9 +12,9 @@
 
 ---
 
-**Junior Backend Developer** and **Software Development Technician** (Campuslands).
+**Junior Full Stack Developer** and **Software Development & AI Technician** (Campuslands).
 I build REST APIs with clean boundaries (hexagonal architecture, DDD), design normalized
-relational databases, and develop **AI agents** that answer real questions with real data.
+relational databases, create web interfaces with JavaScript and React, and develop **AI agents** that answer real questions with real data.
 
 ```java
 public record Developer(String name, String role, String focus, List<String> stack, String nowBuilding) {
@@ -22,9 +22,9 @@ public record Developer(String name, String role, String focus, List<String> sta
     public static Developer isaac() {
         return new Developer(
             "Manuel Isaac Camaño Díaz",
-            "Junior Backend Developer",
-            "Backend · Databases · AI agents",
-            List.of("Java 21", "Spring Boot", "PostgreSQL", "Docker", "Python"),
+            "Junior Full Stack Developer",
+            "Backend · Frontend · Databases · AI agents",
+            List.of("Java 21", "Spring Boot", "PostgreSQL", "JavaScript", "React", "Python", "Docker"),
             "Agents that help small businesses decide with data"
         );
     }
