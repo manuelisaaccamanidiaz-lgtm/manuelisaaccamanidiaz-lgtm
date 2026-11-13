@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/manuel-isaac-cama%C3%B1o-diaz-707006305/"><img src="https://img.shields.io/badge/LinkedIn-111827?style=flat-square" alt="LinkedIn"/></a>
   <a href="mailto:manuelisaaccamanidiaz@gmail.com"><img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=F59E0B" alt="Email"/></a>
-  <a href="https://manuelisaaccamanidiaz-lgtm.github.io/portafolio_profesional/"><img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=githubpages&logoColor=F59E0B" alt="Portfolio"/></a>
+  <a href="https://manuelisaaccamanidiaz-lgtm.github.io/portafolio/"><img src="https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=githubpages&logoColor=F59E0B" alt="Portfolio"/></a>
 </p>
 
 ---
@@ -93,7 +93,7 @@ public record Developer(String name, String role, String focus, List<String> sta
 | [DeliveryBot](https://github.com/manuelisaaccamanidiaz-lgtm/DeliveryBot) | Telegram bot for internal cafeteria orders, with stock validation | n8n · Telegram · Google Sheets |
 | [Pizzería Don Piccolo](https://github.com/manuelisaaccamanidiaz-lgtm/Pizzeria-don-Piccolo) | Orders, delivery and inventory database with triggers and views | MySQL |
 | [Formula 1 Simulator](https://github.com/manuelisaaccamanidiaz-lgtm/proyecto_formula1) | Qualifying simulator with a real-time JavaFX race track | Java · JavaFX |
-| [Portfolio](https://manuelisaaccamanidiaz-lgtm.github.io/portafolio_profesional/) | My personal portfolio website | HTML · CSS · JavaScript |
+| [Portfolio](https://manuelisaaccamanidiaz-lgtm.github.io/portafolio/) | My personal portfolio website | HTML · CSS · JavaScript |
 
 </details>
 
